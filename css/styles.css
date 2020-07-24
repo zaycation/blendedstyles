@@ -1,0 +1,41 @@
+body {
+    font-family: "Verdana", sans-serif;
+}
+
+h1, h2 {
+    font-family: "Lobster", cursive;
+}
+
+h3  {
+    font-family: "Verdana";
+    font-size: x-large;
+}
+
+h2 {
+    color: #CF5C36;
+}
+
+h5{
+    color: white;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right ,#CF5C36, #EFC88B, #F4E3B2);
+    color: white;
+}
+
+footer {
+    background-image: linear-gradient(to left ,#CF5C36, #EFC88B, #F4E3B2);
+    padding: 20px 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
