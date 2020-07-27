@@ -1,41 +1,29 @@
 body {
-    font-family: "Verdana", sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
-p   {
-    text-align: center;
-}
-
-h1, h2 {
+h1, h2, h3 {
     font-family: "Lobster", cursive;
 }
 
-h3  {
-    font-family: "Verdana";
-    font-size: x-large;
-}
-
 h2 {
-    color: #023e8a;
-}
-
-h5{
-    color: white;
+    color: #3046C5;
 }
 
 header h2 {
     color: #CEC8FF;
 }
 
-.jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(to right ,#03045e, #0077b6, #48cae4);
-    color: white;
+.site-footer{
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
 }
 
-footer {
-    background-image: linear-gradient(to right ,#03045e, #0077b6, #48cae4);
-    padding: 20px 0;
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    color: white;
+    margin: 0;
 }
 
 .row-content {
@@ -44,6 +32,6 @@ footer {
     min-height: 200px;
 }
 
-.row-center    {
-    text-align: center;
+.navbar {
+     background-color: #901CAD;
 }
