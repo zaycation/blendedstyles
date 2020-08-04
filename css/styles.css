@@ -38,4 +38,9 @@ header h1, h2 {
 
 a {
     text-decoration: none !important;
+    color: white;
+}
+
+a:hover {
+  color: #24272b;
 }
