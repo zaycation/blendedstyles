@@ -10,18 +10,18 @@ h2 {
     color: #3046C5;
 }
 
-header h2 {
-    color: #CEC8FF;
+header h1, h2 {
+    color: white;
 }
 
 .site-footer{
-    background-image: linear-gradient(#CEC8FF, white);
+    background-image: linear-gradient(#004ba8, #24272b);
     padding: 20px 0;
 }
 
 .jumbotron {
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
+    background-image: linear-gradient(to right, #004ba8, #3e78b2);
     color: white;
     margin: 0;
 }
@@ -33,7 +33,7 @@ header h2 {
 }
 
 .navbar {
-     background-color: #901CAD;
+     background-color: #24272b;
 }
 
 a {

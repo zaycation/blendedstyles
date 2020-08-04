@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
 
 
-    
+
     <title>Blended Styles</title>
 </head>
 
@@ -98,41 +98,112 @@
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>                       
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
-                <h2>Featured Campsites</h2>
-            </div>
-            <div class="col">
-                <h3>React Lake Campground</h3>
-        		<p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
-   			</div>
-        </div>
 
-        <div class="row row-content align-items-center">
-            <div class="col-sm-4 order-sm-last col-md-3">
-                <h2>Our Community Partners</h2>
-            </div>
-            <div class="col">
-                <div class="media">
-                    <img class="d-flex mr-3 img-thumbnail" src="img/hbrew.jpeg" alt="Bootstrap Outfitters" />
-                    <div class="media-body align-self-center">
-                        <h3>Hippie's Brew</h3>
-        				<p class="d-none d-sm-block"> Union City, CA Location: 3900 Smith St | Hayward, CA Location: 888 C St</p>
+            <div class="container">
+
+
+                              <div class="row row-content">
+                                  <div class="col-sm-6 mx-auto">
+                                      <div class="card">
+                                          <h3 class="card-header bg-info">
+                                              Reserve a Campsite!
+                                          </h3>
+                                      </div>
+                                      <div class="card-body">
+                                          <form id="reserveForm">
+                                              <div class="row form-group">
+                                                  <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
+                                                  <div class="col">
+                                                      <select id="numCampers" class="form-control">
+
+                                                          <option selected>Select...</option>
+                                                          <option>1</option>
+                                                          <option>2</option>
+                                                          <option>3</option>
+                                                          <option>4</option>
+                                                          <option>5</option>
+                                                          <option>6</option>
+                                                      </select>
+                                                  </div>
+                                              </div>
+                                              <div class="row form-group">
+                                                  <label for="Date" class="col-sm-6 col-form-label">Date</label>
+                                                  <div class="col-sm-6">
+                                                      <input id="Date" type="Date" name="Date" placeholder="Date" class="form-control" />
+                                                  </div>
+                                              </div>
+                                              <div class="row form-group">
+                                                  <div class="col">
+                                                      <button class="btn btn-primary">
+                                                          Search
+                                                      </button>
+                                                  </div>
+                                          </form>
+                                      </div>
+                                  </div>
+                              </div>
+
+                <div class="row row-content align-items-center">
+                    <div class="col-sm-4 order-sm-last col-md-3">
+                        <h2 class="text-sm-right">Discover + Review</h2>
+                    </div>
+                    <div class="col">
+                        <div class="media">
+                            <img class="d-flex mr-3 img-thumbnail" src="img/breadcrumb-trail-thumb.jpg"
+                                alt="Breadcrumb Trail" />
+                            <div class="media-body align-self-center">
+                                <h3>Our Campsites</h3>
+                                <p class="d-none d-sm-block">Explore our growing database of curated campsites and leave your
+                                    own reviews!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-content align-items-center">
+                    <div class="col-sm-4 col-md-3">
+                        <h2 class="text-sm-left">Featured Campsites</h2>
+                    </div>
+                    <div class="col">
+                        <div class="media">
+                            <div class="media-body align-self-center">
+                                <h3>React Lake Campground</h3>
+                                <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground
+                                    on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                            </div>
+
+                            <img class="d-flex ml-3 img-thumbnail" src="img/react-lake-thumb.jpg" alt="Featured Campsites" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row row-content align-items-center">
+                    <div class="col-sm-4 order-sm-last col-md-3">
+                        <h2 class="text-sm-right">Community Partners</h2>
+                    </div>
+                    <div class="col">
+                        <div class="media">
+                            <img class="d-flex mr-3 img-thumbnail" src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters" />
+                            <div class="media-body align-self-center">
+                                <h3>Bootstrap Outfitters</h3>
+                                <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you
+                                    can't beat.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+
 
     <footer class="site-footer">
         <div class="container">
-            <div class="row">             
+            <div class="row">
                 <div class="col-4 col-sm-2 offset-1">
                     <h5>Links</h5>
             		<ul class="list-unstyled">
@@ -153,7 +224,7 @@
                 <div class="col-sm-4 text-center">
                     <a role="button" class="btn btn-link" href="tel:+15101234657"><i class="fa fa-phone"></i> 1-510-123-4567</a><br />
                 <a role="button" class="btn btn-link" href="mailto:booking@blendedstyles.com"><i class="fa fa-envelope-o"></i> booking@blendedstyles.com</a>
-            </div>                
+            </div>
            </div>
         </div>
     </footer>
