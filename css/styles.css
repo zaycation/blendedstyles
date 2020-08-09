@@ -15,7 +15,7 @@ header h1, h2 {
 }
 
 .site-footer{
-    background-image: linear-gradient(#004ba8, #24272b);
+    background-image: linear-gradient(#3e78b2, #4a525a);
     padding: 20px 0;
 }
 
@@ -43,4 +43,30 @@ a {
 
 a:hover {
   color: #24272b;
+}
+
+.blueHeader {
+    background-image: linear-gradient(to right, #004ba8, #3e78b2);
+}
+
+.map1   {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    opacity: 0.9;
+}
+img:hover {
+    opacity: 1;
+}
+
+.card-title, .card-text {
+    color: white;
+}
+
+.gallerybg  {
+    background-color: #3e78b2;
+    color: white;
 }
