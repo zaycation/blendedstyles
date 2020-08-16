@@ -1,83 +1,45 @@
 body {
-    font-family: "Open Sans", sans-serif;
-}
+  font-family: "Verdana"; }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
-}
+  font-family: "Lobster", "Helvetica";
+  color: white !important; }
 
 h2 {
-    color: #3046C5;
-}
+  color: #004BA8; }
 
-header h1, h2 {
-    color: white;
-}
+header h2 {
+  color: #4A525A; }
 
-.site-footer{
-    background-image: linear-gradient(white, #3e78b2);
-    padding: 20px 0;
-}
+.site-footer {
+  background-image: linear-gradient(white, #3E78B2);
+  padding: 20px 0; }
 
 .jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(to right, #004ba8, #3e78b2);
-    color: white;
-    margin: 0;
-}
-
-.row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-}
+  margin: 0;
+  padding: 50px;
+  background-image: linear-gradient(to right, #004BA8, #3E78B2);
+  color: white; }
 
 .navbar {
-     background-color: #24272b;
-}
-
-a {
-    text-decoration: none !important;
-    color: white;
-}
-
-.blueHeader {
-    background-image: linear-gradient(to right, #004ba8, #3e78b2);
-}
-
-.map1   {
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-}
-
-img {
-    opacity: 0.9;
-}
-img:hover {
-    opacity: 1;
-}
-
-.card-title, .card-text {
-    color: white;
-}
-
-.gallerybg  {
-    background-color: #3e78b2;
-    color: white;
-}
+  background-color: #24272B; }
 
 .carousel {
-    border: solid #3e78b2; }
-  
-#carouselButton {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 100; }
+  border: solid #24272B; }
 
-#modal-header   {
-    background-color: #3e78b2;
-    color: white;
-    border: red;
-}
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+#bookingModal .modal-header {
+  background-image: linear-gradient(to right, #004BA8, #3E78B2);
+  color: white; }
+
+#cartModal .modal-header {
+  background-image: linear-gradient(to right, #004BA8, #3E78B2);
+  color: white; }

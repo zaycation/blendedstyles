@@ -1,6 +1,6 @@
 
 $(function () {
-    $(".carousel").carousel({ interval: 2000 });    //forces carousel to cycle @ 2000 secs
+    $(".carousel").carousel({ interval: 4000 });    //forces carousel to cycle @ 2000 secs
     $("#carouselButton").click(function () {        //once #carouselButton is clicked... peform what's in {}
         if ($("#carouselButton").children("i").hasClass("fa-pause")) {
             $(".carousel").carousel("pause");       //clicking pause button pauses carousel

@@ -1,0 +1,77 @@
+$color-primary: #004BA8;
+$color-secondary: #3E78B2;
+$color-grey: #4A525A;
+$color-darkgrey: #24272B;
+$color-dark: #07070A;
+$color-transblack: rgba(0, 0, 0, 0.5);
+
+
+$body-font: "Verdana";
+$header-font: "Lobster", "Helvetica";
+
+body {
+    font-family: $body-font;
+}
+
+h1, h2, h3, strong {
+    font-family: $header-font;
+    color: white !important;
+}
+
+h2 {
+    color: $color-primary;
+}
+
+header {
+    h2 {
+        color: $color-grey;
+    }
+}
+
+.site-footer {
+    background-image: linear-gradient(white, $color-secondary);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 50px;
+    background-image: linear-gradient(to right, $color-primary, $color-secondary);
+    color: white;
+}
+
+.navbar {
+    background-color: $color-darkgrey;
+}
+
+.carousel {
+    border: solid $color-darkgrey;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+
+}
+
+.carousel-caption {
+    background-color: $color-transblack;
+}
+
+#bookingModal {
+    .modal-header {
+        background-image: linear-gradient(to right, $color-primary, $color-secondary);
+        color: white;
+
+    }
+}
+
+#cartModal {
+    .modal-header {
+        background-image: linear-gradient(to right, $color-primary, $color-secondary);
+        color: white;
+
+    }
+}

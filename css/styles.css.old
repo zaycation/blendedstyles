@@ -1,0 +1,83 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header h1, h2 {
+    color: white;
+}
+
+.site-footer{
+    background-image: linear-gradient(white, #3e78b2);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #004ba8, #3e78b2);
+    color: white;
+    margin: 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+     background-color: #24272b;
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
+}
+
+.blueHeader {
+    background-image: linear-gradient(to right, #004ba8, #3e78b2);
+}
+
+.map1   {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    opacity: 0.9;
+}
+img:hover {
+    opacity: 1;
+}
+
+.card-title, .card-text {
+    color: white;
+}
+
+.gallerybg  {
+    background-color: #3e78b2;
+    color: white;
+}
+
+.carousel {
+    border: solid #3e78b2; }
+  
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100; }
+
+#modal-header   {
+    background-color: #3e78b2;
+    color: white;
+    border: red;
+}
