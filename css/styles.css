@@ -15,7 +15,7 @@ header h1, h2 {
 }
 
 .site-footer{
-    background-image: linear-gradient(#3e78b2, #4a525a);
+    background-image: linear-gradient(white, #3e78b2);
     padding: 20px 0;
 }
 
@@ -69,4 +69,19 @@ img:hover {
 .gallerybg  {
     background-color: #3e78b2;
     color: white;
+}
+
+.carousel {
+    border: solid #3e78b2; }
+  
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100; }
+
+#modal-header   {
+    background-color: #3e78b2;
+    color: white;
+    border: red;
 }
