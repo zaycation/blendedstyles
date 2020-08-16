@@ -65,9 +65,9 @@
                                         placeholder="you@example.com">
                                 </div>
                             </div>
+                            <!-- Select Dropdown -->
                             <div class="form-group row">
                                 <label for="numCampers" class="col-sm-6 col-form-label"># of Haircuts</label>
-                                <!-- Select Dropdown -->
                                 <div class="col">
                                     <select name="numCampers" id="numCampers" class="form-control">
                                         <option selected>Select...</option>
@@ -109,6 +109,56 @@
     </div>
     <!--End Booking Modal-->
 
+    <!--Begin Cart Modal-->
+    <div id="cartModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Your shopping cart</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <table class="table table-image">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Product</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Qty</th>
+                                    <th scope="col">Total</th>
+                                    <th scope="col">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="w-25">
+                                        <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png"
+                                            class="img-fluid img-thumbnail" alt="Sheep">
+                                    </td>
+                                    <td>Vans Sk8-Hi MTE Shoes</td>
+                                    <td>89$</td>
+                                    <td class="qty"><input type="text" class="form-control" id="input1" value="2"></td>
+                                    <td>178$</td>
+                                    <td>
+                                        <a href="#" class="btn btn-danger btn-sm">
+                                            <i class="fa fa-times"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="d-flex justify-content-end">
+                            <h5>Total: <span class="price text-success">89$</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Cart Modal-->
+
+
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
@@ -128,7 +178,7 @@
                                 class="fa fa-calendar-check-o fa-lg"></i> Appointments</a></li>
                 </ul>
             </div>
-            <a class="nav-link" href="#"><i class="fa fa-cart-plus fa-lg"></i> Cart</a>
+            <a id="cartNavButton" class="nav-link" href="#cartModal"><i class="fa fa-cart-plus fa-lg"></i> Cart</a>
         </div>
     </nav>
 

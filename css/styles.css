@@ -41,10 +41,6 @@ a {
     color: white;
 }
 
-a:hover {
-  color: #24272b;
-}
-
 .blueHeader {
     background-image: linear-gradient(to right, #004ba8, #3e78b2);
 }
