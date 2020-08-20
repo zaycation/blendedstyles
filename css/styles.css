@@ -25,7 +25,7 @@ header h2 {
   background-color: #24272B; }
 
 .carousel {
-  border: solid #24272B; }
+  border: solid #004BA8; }
 
 #carouselButton {
   position: absolute;
@@ -43,3 +43,16 @@ header h2 {
 #cartModal .modal-header {
   background-image: linear-gradient(to right, #004BA8, #3E78B2);
   color: white; }
+
+  a {
+    color: white !important;
+  }
+
+  a:hover {
+    color: #4A525A !important;
+  }
+
+  iframe {
+    border: solid #004BA8;
+    display: block;
+  }

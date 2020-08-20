@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
     <!-- Additional CSS must be placed after Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
 
@@ -117,40 +118,23 @@
                     <h3 class="modal-title">Your shopping cart</h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
+
                 <div class="modal-body">
-                    <div class="container-fluid">
-                        <table class="table table-image">
-                            <thead>
-                                <tr>
-                                    <th scope="col"></th>
-                                    <th scope="col">Product</th>
-                                    <th scope="col">Price</th>
-                                    <th scope="col">Qty</th>
-                                    <th scope="col">Total</th>
-                                    <th scope="col">Actions</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="w-25">
-                                        <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/vans.png"
-                                            class="img-fluid img-thumbnail" alt="Sheep">
-                                    </td>
-                                    <td>Vans Sk8-Hi MTE Shoes</td>
-                                    <td>89$</td>
-                                    <td class="qty"><input type="text" class="form-control" id="input1" value="2"></td>
-                                    <td>178$</td>
-                                    <td>
-                                        <a href="#" class="btn btn-danger btn-sm">
-                                            <i class="fa fa-times"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                        <div class="d-flex justify-content-end">
-                            <h5>Total: <span class="price text-success">89$</span></h5>
+
+                    <div class="col">
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-primary active">
+                                <input type="radio" name="options" id="option1" checked> Apple Pay
+                            </label>
+                            <label class="btn btn-info">
+                                <input type="radio" name="options" id="option2"> PayPal Checkout
+                            </label>
+                            <label class="btn btn-success">
+                                <input type="radio" name="options" id="option3"> Credit/Debit Card
+                            </label>
                         </div>
+                        <br>
+                        <br>
                     </div>
                 </div>
             </div>
